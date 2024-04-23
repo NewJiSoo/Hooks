@@ -15,4 +15,7 @@ const useInput = (initialValue, validator) => {
 
     return { value, onChange }
 }
-
+// 사용 예시
+// 특정 문자나 숫자를 검증할 수 있다...!
+const maxLen = (value) => !value.includes("@")
+const name = useInput("JJ", maxLen)

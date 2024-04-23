@@ -1,5 +1,5 @@
 // useTab : 클릭한 항목을 보여준다.
-// content[0] 클릭 시 해당 content를 보여주고 
+// contents[0] 버튼 클릭 시 해당 content를 보여준다.
 
 const contents = [
     {
